@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url(https://images.unsplash.com/photo-1477601263568-180e2c6d046e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80); */
+    background-image: url(crakr.jpg) ;
+    color:#fff;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: auto ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight:normal;
+    margin-top: -10rem;
+}
+
+.countdown-container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.big-text{
+    font-weight:bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
